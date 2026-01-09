@@ -62,13 +62,14 @@ const Quiz = () => {
                   {option}
                 </button>
               ))}
+              <button className="next btn text-white" onClick={}>Next</button>
             </div>
           </div>
 
           {/* Right Side: Image */}
-          <div className="col-md-6 text-center order-1 order-md-2 d-none d-md-block">
+          {/* <div className="col-md-6 text-center order-1 order-md-2 d-none d-md-block">
             <img src="/boy-illustration.png" alt="quiz" className="img-fluid quiz-img" />
-          </div>
+          </div> */}
         </div>
       )}
     </div>
